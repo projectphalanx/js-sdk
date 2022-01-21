@@ -3,13 +3,17 @@ import Head from 'next/head'
 import Link from 'next/link'
 import {StyledLink} from 'baseui/link'
 
-const LINKS: [string, string][] = [['/pink-flip', 'Flip']]
+const LINKS: [string, string][] = [
+  ['/pink-flip', 'Flip'],
+  ['/pink-flip-test', 'FlipTest'],
+  ['/phalanx', 'Phalanx']
+]
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Phala SDK Example</title>
+        <title>Phalanx SDK Example</title>
       </Head>
 
       <ol>
